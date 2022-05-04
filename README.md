@@ -127,7 +127,7 @@ patient’s condition.
      No professional operation is needed, which is suitable for user with all age.
 ##Structure of the repository
 The structure of the repository is shown as follows.
-<img src="https://github.com/ZhuoZHI-UCL/Lab-on-App/blob/main/Introduction/image/structure%20of%20the%20github%20project.pdf"/>
+<img src="https://github.com/ZhuoZHI-UCL/Lab-on-App/blob/main/Introduction/image/structure%20of%20the%20github%20project.jpg"/>
 
 The repository consists of three parts: the progress record, the action points record and the
 code.
