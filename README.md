@@ -11,8 +11,8 @@ is as follows:
 2. Structure of the repository
 3. Participants of the project
 
-##Introduction of the project
-###1. Background of the anemia
+## Introduction of the project  
+### 1. Background of the anemia  
 
 Anaemia is a serious global public health problem that particularly affects young children and
 pregnant women. WHO estimates that 42% of children less than 5 years of age and 40% of
@@ -25,7 +25,7 @@ disease is present), intermittent claudication of the legs, and symptoms of hear
 
 Therefore, the diagnosis of anemia and its causes is important for improving human well-being.
 
-###2. Problems existing in traditional anemia detection methods
+### 2. Problems existing in traditional anemia detection methods  
 
 Anaemia, defined as reduced haemoglobin concentration. The diagnosis of anemia in men is based
 on a hemoglobin of less than 130 to 140 g/L (13 to 14 g/dL). In women, it is less than 120 to 130
@@ -34,7 +34,7 @@ of a venous blood sample, which could bring trauma and pain to patients, even wo
 The diagnosis process involves complex equipment which requires professional operators and fixed
 test site. To address these issues, researchers keep looking for novel anemia detection methods.
 
-###3. Problems existing in novel anemia detection methods
+### 3. Problems existing in novel anemia detection methods  
 
 Novel anemia detection methods based on AI data analysis and advanced sensing technology. For
 the first part, the ML/DL models can be built for classifying patients’ finger nail, fundu, conjuctival
@@ -46,7 +46,7 @@ developed sensors based on the principle of multispectral analysis, transmission
 etc. Similarly, these methods can not explain the reason of the anemia and it is unable to iterate
 and update the algorithm with new biomarks.
 
-###4. What do we want to achieve?
+### 4. What do we want to achieve?  
 
 We would like to develop a Lab-on-App to non-invasively diagnose anaemia and its causes (e.g.
 genetics, diet, or injury) that can be easily used by older people, carers, or healthcare professionals.
@@ -55,7 +55,7 @@ the successful demonstration of our proposed Lab-on-App will lead to additional 
 using mobile health technology to diagnose other conditions afflicting older population (kidney
 diseases, colon diseases, or vitamin deficiencies).
 
-###5. How do we achieve the goal?
+### 5. How do we achieve the goal?  
 
 The project solution consists of five parts: the patient data acquisition, the data analysis, the
 diagnostic result, the hardware integration and the software deployment. The project solution is
@@ -104,7 +104,7 @@ mechanical equipments.
    
      A database needs to be established for all patients to facilitate version iteration and
      update
-###6. The innovation of our solution
+### 6. The innovation of our solution  
 There are two main innovation of our solution.
 1. EHR data is combined for the diagnosis
    - Multiple health histories of users are modeled to analyze and predict disease occurrence
@@ -125,7 +125,7 @@ patient’s condition.
      health advice can be given.
    - User universality
      No professional operation is needed, which is suitable for user with all age.
-##Structure of the repository
+## Structure of the repository  
 The structure of the repository is shown as follows.
 <img src="https://github.com/ZhuoZHI-UCL/Lab-on-App/blob/main/Introduction/image/structure%20of%20the%20github%20project.jpg"/>
 
@@ -149,7 +149,7 @@ preprocessing includes outlier detection, normalization, feature selection, impu
 clipping, etc. The structure and weights of the ML/DL model will be stored in ML/DL
 model building. In evaluation and analysis step, we will propose the required evaluation
 metrics and conduct comparative experiments as well as analyse the result.
-##Participants of the project
+## Participants of the project  
 1. Project Supervisor
    - Professor Miguel Rodrigues, Dept Electronic and Electrical Engineering, University Col-
 lege London
