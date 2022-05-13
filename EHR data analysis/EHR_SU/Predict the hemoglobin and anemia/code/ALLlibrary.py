@@ -1,4 +1,4 @@
-#所有的需要导入的库
+#All the library used
 import os
 import joblib
 import keras
@@ -47,7 +47,6 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import BaggingRegressor
 from sklearn.ensemble import GradientBoostingClassifier,AdaBoostClassifier
 from sklearn.ensemble import AdaBoostClassifier
-
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import Normalizer
 from sklearn.preprocessing import scale,minmax_scale
@@ -56,18 +55,17 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import r2_score#R squar
-
 import cmath
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 from scipy import stats
-#开始pytorch
 import math
 import argparse
-
 import sys
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import KFold, cross_val_score
+
+#setting for plotting
 plt.rcParams['font.sans-serif'] = 'Times New Roman'
-plt.rcParams['savefig.dpi'] = 100 #图片像素
-plt.rcParams['figure.dpi'] = 100 #分辨率
+plt.rcParams['savefig.dpi'] = 100
+plt.rcParams['figure.dpi'] = 100
