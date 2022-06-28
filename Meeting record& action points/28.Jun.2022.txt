@@ -1,0 +1,12 @@
+Date of the meeting: 28. JUN. 2022 13:00 – 14: 10
+Meeting format: Teams
+Attendees: ZZ, Migue, Mine
+
+Discussion points
+1.	The experimental result of the MIMIC III dataset. The lab test result and the demographic information are used for predicting the hemoglobin level, which achieves satisfied result. RMSE is 0.57, MAE is 0.25 and r2score is 0.97.
+2.	The next step of the project.
+
+Action points
+1.	Look into the machine learning technology dealing with time series with different time gap and missing data.
+2.	List all the function we would like to realized in the model: missing data processing, multimodal-input, time series, etc.
+3.	Draft the survey for PPIE and get feedback from everyone.
